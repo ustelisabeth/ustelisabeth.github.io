@@ -1,0 +1,224 @@
+
+
+.Typename{
+
+    display: inline-block;
+    font-family: "berkshire_swashregular", normal;
+    font-size: 200%;
+    margin-top: 18px;
+    background: -webkit-linear-gradient(rgb(219, 125, 125), rgb(155, 72, 72));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Typedesc{
+    
+  font-family: 'rowdies_lightregular';
+  font-size: 100%;
+  margin-top: 1px;
+}
+
+.columnref{
+    display: inline-block;
+    max-width: 400px;
+    top: 0px;
+  }
+  
+  
+  .imageimg{
+    border-radius: 5%;
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    object-position: 50% 1%;
+  }
+  
+  .image{
+    display: inline-block;
+    border-radius: 5%;
+    padding: 1%;
+    width: fit-content;
+  }
+  
+  .image:hover{
+    text-shadow: 0px 0px 20px rgba(212, 109, 109, 0.76);
+    box-shadow: 0 0 20px rgba(100, 47, 54, 0.712);
+    border-color: #bb8c8c; 
+    border-width: 0px;
+    transition: 0.5s;
+    transform: scale(1.02);
+  }
+  
+  
+.arrowleft {
+  float: left;
+  padding: 10px;
+}
+
+.arrowright {
+    float: right;
+    padding: 10px;
+  }
+
+.pagetitle {
+  display: inline-block;
+  font-family: "berkshire_swashregular", normal;
+  font-size: 30px;
+  margin-top: 18px;
+  background: -webkit-linear-gradient(rgb(219, 125, 125), rgb(51, 16, 16));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.maincontentheader {
+  text-decoration: none;
+  border-radius: 5%;
+  border-width: 20px;
+  width: 100%;
+  box-shadow: 0 6px 6px -6px #ebc2c8;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+}
+
+
+.commtypename {
+    display: inline-block;
+    font-family: "berkshire_swashregular", normal;
+    font-size: 50px;
+    margin-top: 18px;
+    background: -webkit-linear-gradient(rgb(219, 125, 125), rgb(51, 16, 16));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .commtypedesc {
+    display: inline-block;
+    font-family: 'rowdies_lightregular';
+  color: #000000cb;
+    font-size: 15px;
+    margin-top: 1px;
+  }
+  
+  
+  .commblock {
+    border-radius: 0%;
+    border-width: 20px;
+    width: 100%;
+    box-shadow: 0 6px 6px -6px #ebc2c8;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+  }
+  
+  .commtypeinfo {
+    display: inline-block;
+    margin: 50px;
+    vertical-align: top;
+  }
+  
+  .commtypepic {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width: 26%;
+  }
+  
+  .commtypeimages{
+      display: flex;
+      width: 100%;
+  }
+  
+  .commtypeimages img{
+      height: 50%;
+      width: 100%;
+      transition: all 0.2s ease;
+      border-top-left-radius: 5%;
+      border-bottom-left-radius: 5%;
+  }
+  
+  .commtypeimages input{
+      display: none;
+  }
+  
+  .dots {display: flex;
+  justify-content: center;
+  margin: 5px;
+  }
+  .dots label {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      border: solid rgb(233, 184, 200) 1px;
+      cursor: pointer;
+      transition: all 1s ease;
+      margin: 5px;
+  }
+  
+  .dots label:hover {background: #ebc2c8;}
+  #emotes1:checked ~ .commtypepicture1 {
+      margin-left: 0;
+  }
+  #emotes2:checked ~ .commtypepicture2 {
+      margin-left: -100%;
+  }
+  #emotes3:checked ~ .commtypepicture3 {
+      margin-left: -200%;
+  }
+  #emotes4:checked ~ .commtypepicture4 {
+      margin-left: -300%;
+  }
+
+  
+.dots label:hover {background: #ebc2c8;}
+#pngtuber1:checked ~ .commtypepicture1 {
+    margin-left: 0;
+}
+#pngtuber2:checked ~ .commtypepicture2 {
+    margin-left: -100%;
+}
+#pngtuber3:checked ~ .commtypepicture3 {
+    margin-left: -200%;
+}
+#pngtuber4:checked ~ .commtypepicture4 {
+    margin-left: -300%;
+}
+
+.dots label:hover {background: #ebc2c8;}
+#chibi1:checked ~ .commtypepicture1 {
+    margin-left: 0;
+}
+#chibi2:checked ~ .commtypepicture2 {
+    margin-left: -100%;
+}
+#chibi3:checked ~ .commtypepicture3 {
+    margin-left: -200%;
+}
+#chibi4:checked ~ .commtypepicture4 {
+    margin-left: -300%;
+}
+.commtypeprice {
+    margin: 50px;
+    vertical-align: top;
+    float: right;
+    padding-right: 50px;
+}
+li{
+    font-family: "berkshire_swashregular", normal;
+    font-size: larger;
+    background: -webkit-linear-gradient(rgb(219, 125, 125), rgb(51, 16, 16));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.maincontentheaderdown {
+    text-decoration: none;
+    border-radius: 5%;
+    border-width: 20px;
+    width: 100%;
+    text-align: center;
+  }

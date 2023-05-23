@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="Pictures/paw2.ico">
+    <title>Link holder</title>
+    <style>
+      h1 {
+        font-size: 50px;
+        font-family: "Berkshire Swash", cursive;
+        color: #552027;
+      }
+
+      .cat {
+        display: inline-block;
+        font-family: "Rowdies", cursive;
+        box-shadow: 0 0 20px rgba(206, 172, 172, 0.404);
+        border-radius: 15px;
+        padding: 5% 1%;
+        font-size: 15px;
+        width: 55%;
+      }
+      .anim {
+        display: block;
+        padding: 20px;
+      }
+      .chosennavigation {
+        flex: 5 1 auto;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        padding: 10px 20px;
+        background-image: linear-gradient(#a83e4c, #bb8c8c);
+        border-style: hidden;
+        border-radius: 4px;
+        margin-inline: 10px;
+        font-size: 20px;
+        font-family: "Berkshire Swash", cursive;
+        text-shadow: 0px 3px 10px rgb(0, 0, 0);
+        color: aliceblue;
+      }
+      .chosennavigation:hover {
+        cursor: pointer;
+        background-image: linear-gradient(to bottom, #a83e4cb9, #bb8c8cbe);
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.918);
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="cat">
+        <h1>Curiosity</h1>
+        killed the cat?
+        <div></div>
+        <img class="anim" src="assets/Pictures/animcatlink.png" />
+        <a href="./index.html">
+          <button class="chosennavigation">Back to home page</button>
+        </a>
+      </div>
+    </center>
+  </body>
+</html>

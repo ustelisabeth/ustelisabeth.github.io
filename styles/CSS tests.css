@@ -1,0 +1,7 @@
+#hashLink {
+  display: none;
+}
+
+#hashLink:target {
+  display: block;
+}
